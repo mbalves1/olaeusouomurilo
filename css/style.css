@@ -1,14 +1,16 @@
-/* body{
-    background-color:rgb(119, 120, 121);
-} */
+
 
 body {
     /* width: 50%; */
     height: 1px;
-    background-image: linear-gradient(to right, rgb(75, 69, 69), rgb(180, 191, 191));
+    background-color: rgb(180, 191, 191);
     color: rgb(59, 51, 51);
+}
 
-    
+.navbar{
+    display:flex;
+    justify-content: space-around;
+    color:white;       
 }
 
 .bi {
@@ -35,9 +37,10 @@ body {
 
 .section-first{
     /* margin-right: 15vw;*/
-    margin-right:10vw;
-    margin-left:5vw;
+    /* margin-right:10vw;
+    margin-left:5vw; */
     margin-top:3vh;
+    /* background-image: linear-gradient(to bottom, rgb(75, 69, 69), rgb(180, 191, 191)); */
 }
 
 .cartao-principal{
@@ -64,8 +67,19 @@ body {
 
 .title-section{
     text-align: center;
-    margin-top:20vh;
+    margin-top:5vh;
+    margin-bottom:6vh;
+    color:white;
+    padding: 4vh;
+    
 }
+
+
+.title-color{
+    color:rgb(114, 117, 117);
+    
+}
+
 
 .second{
     display: grid;
@@ -78,17 +92,30 @@ body {
 .h2{
     margin-bottom: 10vh;
     margin-top: 20vh;
+    text-transform: uppercase;
+    color:white;
+}
+.empresas{
+    margin-left: 8vw;
+    margin-right:8vw;
+    justify-content: space-between;
+    text-align: center;
+    display: flex;
+}
+
+.header-experiencias{
+    font-size:2em;
+}
+
+.main-experiencias{
+    font-size:1.5em;
 }
 
 @media(max-width: 800px){
-    .introducao{
-        margin-right:5vw;
-        margin-left:5vw;
-    }
-   
+       
     .section-first{
-        margin-right: 2vw;
-        margin-left:5vw;
+        /* margin-right: 2vw;
+        margin-left:5vw; */
         display: flex;
         justify-content: center;
         align-items: center;
@@ -102,6 +129,12 @@ body {
        
     }
     
+    .empresas{
+        /* margin-left: 5vw; */
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+    }
     
     
    
