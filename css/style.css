@@ -34,8 +34,10 @@ body {
 }
 
 .section-first{
-    margin-right: 15vw;
-    margin-left:15vw;
+    /* margin-right: 15vw;*/
+    margin-right:10vw;
+    margin-left:5vw;
+    margin-top:3vh;
 }
 
 .cartao-principal{
@@ -45,9 +47,44 @@ body {
     margin-bottom:3vh;
 }
 
+/* .image-icons{
+    display:flex;
+} */
+
+.cursos{
+    display:flex;
+    justify-content: space-around;
+}
+
+.introducao{
+    text-align: center;
+    margin-right:15vw;
+        margin-left:15vw;
+}
+
+.title-section{
+    text-align: center;
+    margin-top:20vh;
+}
+
+.second{
+    display: grid;
+    gap: 2em;
+    grid-template-columns: 400px 400px;
+    text-align: center;
+    justify-content:center;
+}
+
+.h2{
+    margin-bottom: 10vh;
+    margin-top: 20vh;
+}
 
 @media(max-width: 800px){
-    
+    .introducao{
+        margin-right:5vw;
+        margin-left:5vw;
+    }
    
     .section-first{
         margin-right: 2vw;
