@@ -2,7 +2,7 @@
 
 body {
     /* width: 50%; */
-    height: 1px;
+    /* height: 1px; */
     background-color: rgb(180, 191, 191);
     color: rgb(59, 51, 51);
 }
@@ -97,8 +97,8 @@ body {
     color:white;
 }
 .empresas{
-    margin-left: 8vw;
-    margin-right:8vw;
+    padding-left: 8vw;
+    padding-right:8vw;
     justify-content: space-between;
     text-align: center;
     display: flex;
@@ -156,6 +156,23 @@ body {
     border-radius: 50%;
 } */
 
+a, .fab{
+    list-style: none;
+    color:whitesmoke;
+    font-size: 1.5em;
+    width:3vw;
+    
+}
+.footer-footer{
+    display:flex;
+    justify-content: space-between;
+}
+
+.footer-experiencias{
+    border-bottom: 1px solid rgb(114, 117, 117);
+
+}
+
 @media(max-width: 800px){
     .cartao-principal{
         margin-top: 10vh;
@@ -184,8 +201,16 @@ body {
         flex-direction: column;
     }
     
-    
+    .footer-footer{
+        display:flex;
+        flex-direction: column;
+    }
    
+    .icons-footer{
+        display:flex;
+        justify-content: space-between;
+        align-items: center;
+    }
     
     
     
