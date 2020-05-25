@@ -3,7 +3,7 @@
     
     var $target = $(".anime"),
     animationclass = "anime-start";
-    offset = $(window).height()*1/4
+    offset = $(window).height()
     function animeScroll(){
         var documentTop = $(document).scrollTop();
         
