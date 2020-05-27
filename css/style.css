@@ -601,3 +601,9 @@ a{
     text-align: left;
     padding: 20px 0;
 }
+
+.container-standard{
+    width: 50%;
+    position: relative;
+    left: 20vw;
+}
