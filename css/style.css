@@ -114,7 +114,7 @@ body {
     padding-right:8vw;
     justify-content: space-between;
     text-align: center;
-    display: flex;
+    /* display: flex; */
     padding-bottom: 10vh;
 }
 
@@ -266,3 +266,124 @@ a{
 }
     /****************************************************/
 
+.bi-chevron-double-down{
+    animation: bounce 4s infinite;
+}
+
+@keyframes bounce{
+    10% , 50%, 70%{
+        transform: translateY(10px);
+    }
+
+    30%, 60%,100%{
+        transform: translateY(-10px);
+    }
+}
+
+/*******************************************************/
+
+#experience .experience-container{
+    position: relative;
+    border-radius: 3px;
+    margin-left: 40px;
+    margin-bottom: 35px;
+   /* background: black; */
+}
+
+#experience .experience-container::before,
+#experience .experience-container::after{
+    position: absolute;
+    content: "";
+    display: block;
+    margin-left: -40px;
+}
+
+#experience .experience-container::before{
+    top: 11px;
+    left: 0;
+    border-radius: 50%;
+    width: 10px;
+    height: 10px;
+    background:rgb(167, 167, 167);
+}
+
+#experience .experience-container::after{
+    top: 35px;
+    left: 5px;
+    width: 1px;
+    height: 100%;  
+    background: #484848;
+}
+
+#experience .experience-container .details-box{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    /* background: #2b2b2b; */
+    border: 1px solid #2b2b2b;
+    border-radius: 3px;
+    padding: 10px;
+}
+
+#experience .experience-container .details-box::after,
+#experience .experience-container .details-box::before{
+    border-style: solid ;
+    border-width: 10px;
+    color: rgba(0,0,0,0);
+    content: "";
+    display: block;
+    height: 0;
+    position: absolute;
+    top: 6px;
+    width: 0;
+}
+
+/* #experience .experience-container .details-box::after{
+    border-right: 15px solid #2b2b2b;
+    left: -31px;
+} */
+
+#experience .experience-container .details-box::before{
+    border-right: 10px solid #5c5c5c;
+    left: -20px;
+}
+
+#experience .experience-container .content{
+    position: relative;
+    width: 100%;
+    height: 45%; 
+    color: #fff; 
+}
+
+#experience .experience-container .content::before{
+    content: "";
+    background-color: #797979;
+    width: 100%;
+    height: 1px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+#experience .experience-container:last-child{
+    margin-bottom: 70px;
+}
+
+#experience .experience-container .descricao{
+    width: 100%;
+    height: 45%;
+    margin-top: 5px;
+    color: #888888;
+    line-height: 22px;
+    padding:10px 0;
+}
+
+#experience .experience-container{
+    font-family: 'Baloo Bhai 2', cursive;
+}
+
+#experience .experience-container p{
+    color:#a5a5a5;
+    text-align: left;
+    padding: 20px 0;
+}

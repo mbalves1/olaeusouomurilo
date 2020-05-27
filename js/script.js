@@ -9,7 +9,7 @@
         
         $target.each(function(){
             var itemTop = $(this).offset().top;
-            if(documentTop > itemTop - 200){
+            if(documentTop > itemTop - 350){
                 $(this).addClass(animationclass);
             }else{
                 $(this).removeClass(animationclass);
@@ -21,3 +21,12 @@
     $(document).scroll(function(){
         animeScroll();
     })
+
+
+
+
+/************ toggle */
+
+$("teste_button").click(function(){
+    $("teste_pa").toggle.removeClass("teste_pa");
+  });
