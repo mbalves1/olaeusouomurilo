@@ -174,9 +174,10 @@ a{
 .icons-footer a:hover{
     list-style: none;
     color:whitesmoke;
-    font-size: 1.5em;
+    font-size: 2.5em;
     width:7vw;
     text-shadow: 0px 0px 10px 0px yellow;
+    /* letter-spacing: 8px; */
     
     
 }
