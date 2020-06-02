@@ -139,7 +139,7 @@ body {
 
 .footer-footer{
     display:flex;
-    justify-content: space-between;
+    justify-content: space-around;
     text-align: center;
     align-content:center ;
 }
@@ -182,7 +182,7 @@ a{
 }
 .footer-footer{
     display:flex;
-    justify-content: space-between;
+    justify-content: space-e;
 }
 
 .footer-experiencias{
@@ -603,7 +603,7 @@ a{
 }
 
 .container-standard{
-    width: 50%;
+    width: 70%;
     position: relative;
-    left: 20vw;
+    left: 15vw;
 }
