@@ -14,30 +14,35 @@
 <body>
     <header class="header-cartao">
         
-       <!-- Nav -->
-	
-       <!-- <div class="fixed-top">
-        <div class="collapse" id="navbarToggleExternalContent">
-          <div class="bg-dark p-4">
-            <h5 class="text-white h4">Murilo</h5>
-            <span class="text-muted">Toggleable via the navbar brand.</span>
-          </div>
-        </div>
-        <nav  style="height: 8vh;" class="navbar navbar-dark bg-dark">
-            <ul class=novbar>
-                <li>Sobre</li>
-                <li>Skill</li>
-                <li>Contatos</li>
-            </ul> -->
-       
-        <div class="bg-dark fixed-top" style="height: 8vh; margin:0;">
-            <div>
-                <div class="bg-dark p-4" style="display: flex; justify-content: space-between;">
-                  <h5  style="color:whitesmoke; opacity: 0.3;;">by MA</h5>
-                  <span style="color:whitesmoke; opacity: 0.5;"><em>iniciando na programação</em></span>
-                </div>
-              </div>
-        </div>
+        <nav class="navbar navbar-expand-lg navbar-light justify-content-end bg-light fixed-top">
+            <a class="navbar-brand" href="#">jr. frontend</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+              <ul class="navbar-nav">
+                <li class="nav-item active">
+                  <a class="nav-link" href="#skill">Skills</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Cursos</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Experiência</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Contato
+                  </a>
+                  <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                    <a class="dropdown-item" href="https://github.com/mbalves1">Github</a>
+                    <a class="dropdown-item" href="https://www.linkedin.com/in/murilo-de-barros-alves-7873a2115/">LinkedIn</a>
+                    <a class="dropdown-item" href="https://www.instagram.com/murilobalves">Instagram</a>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </nav>
         
         
         
@@ -65,8 +70,8 @@
     </header>
     <main class="main">
         
-        <section class="section-first bg-dark ">
-            <h2 class="title-section pb-4 mb-4  border-bottom    ">Skills</h2>
+        <section class="section-first bg-dark " >
+            <h2 class="title-section pb-4 mb-4  border-bottom  " id="skill">Skills</h2>
             <div class="cursos bordas-div image-icons "> 
                 
                 <img src="img/icons8-html-5.svg" width="200em" height="200em" class="anime">
@@ -79,7 +84,7 @@
         <h2 class="title-section title-color pb-4 mb-4  border-bottom"> Cursos </h2>
 
         <!-- teste de section -->
-        <div class="row">
+        <div class=" rown margin-right:0;">
             <div class="col-md-8 blog-main">
              
         
@@ -99,6 +104,7 @@
                 <p class="parag-cursos"> Flexbox: Posicione elementos na tela </p>
                 <p class="parag-cursos"> Sass e Compass: Descomplicando o CSS </p>
                 <p class="parag-cursos"> jQuery: Domine a biblioteca mais popular do mercado parte 1 </p>
+                <p> Git e Github: Controle e compartilhe seu código - Alura</p>
                 
                 <p class="parag-cursos"> Javascript moderno aplicado ao backend e frontend </p>
                 <hr>
@@ -109,7 +115,7 @@
             </div><!-- /.blog-main -->
         <aside class="col-md-4 blog-sidebar">
             
-            <div class="p-4 mb-3 bg-light rounded">
+            <div class="p-4 mb-3 bg-light ">
               <h4 class="font-italic">Escolas</h4>
               <p class="mb-0">
                 Todos os cursos foram feitos na Alura, com excessão do Js Moderno, que foi feito ao vivo, online na Caelum</p>
@@ -124,35 +130,6 @@
             </div>
     
           </aside><!-- /.blog-sidebar -->
-
-
-        <!-- fim teste -->
-
-
-        <!-- <section class="section-first second">
-            
-            <div>
-                
-                <p>Lógica de programaçãoI: Os primeiros passos com Javascript e HTML </p>
-                <p>Lógica de programaçãoII: pratique com desenhos, animações e um jogo - Alura</p>
-                <p> Jogos clássicos parte 1 - Alura</p>
-                <p> Jogos clássicos parte 2 - Alura</p>
-                <p> HTML5 e CSS3 parte 1: A primeira página da Web - Alura</p>
-                <p> HTML5 e CSS3 parte 2: Posicionando, listas, navegação - Alura</p>
-                <p> HTML5 e CSS3 parte 3: Trabalhando com fomrulários e tabelas - Alura</p>
-                <p> HTML5 e CSS3 parte 4: Avançando no CSS - Alura</p>
-            </div>
-            <div>       
-                <p> Javascript: Programando na linguagem da Web - Alura</p>
-                <p> Web Design Responsivo: Páginas que se adaptam do mobile ao desktop - Alura</p>
-                <p> Flexbox: Posicione elementos na tela - Alura</p>
-                <p> Sass e Compass: Descomplicando o CSS - Alura</p>
-                <p> jQuery: Domine a biblioteca mais popular do mercado parte 1 - Alura</p>
-                <p> Git e Github: Controle e compartilhe seu código - Alura</p>
-                <p> Javascript moderno aplicado ao backend e frontend - Caelum</p>
-
-            </div>
-        </section> -->
         </div>
         <h2 class="title-section title-color pb-4 mb-4  border-bottom"> Experiências</h2>
         <section>
@@ -317,13 +294,13 @@
             <img src="img/favicon/linkedin.svg" class="favicon">
             <img src="img/favicon/instagram-esbocado.svg" class="favicon"> -->
             <a target="_blank" href="https://github.com/mbalves1">
-                <i class="fab fa-github"></i>
+                <i class="fab fa-github" style="width:76px; height: 20px;"></i>
             </a>
-            <a target="_blank" href="https://www.linkedin.com/in/murilo-de-barros-alves-7873a2115/">
-                <i class="fab fa-linkedin"></i>
+            <a target="_blank" styele="width:80px" href="https://www.linkedin.com/in/murilo-de-barros-alves-7873a2115/">
+                <i class="fab fa-linkedin" style="width:76px;"></i>
             </a>
             <a target="_blank" href="https://www.instagram.com/murilobalves">
-                <i class="fab fa-instagram"></i>
+                <i class="fab fa-instagram" style="width:76px;"></i>
             </a>
             
         </div>
