@@ -161,12 +161,12 @@ body {
     margin-right:0;
 }
 
-.rown{
+/* .rown{
     display:flex;
     flex-direction: row;
     justify-content: space-evenly;
     margin-right: 0;
-}
+} */
 
 .riscoMaldito{
     border-top: 1px black solid;
@@ -193,7 +193,7 @@ a{
 }
 
 .icons-footer{
-    width:18vw;
+    /* width:18vw; */
     font-size: 59px;
 }
 
@@ -226,7 +226,7 @@ a{
 
 @media(max-width: 800px){
     .cartao-principal{
-        margin-top: 52vh;
+        margin-top: 21vh;
     } 
     .section-first{
         /* margin-right: 2vw;
@@ -257,11 +257,11 @@ a{
         flex-direction: column;
     }
    
-    .icons-footer{
+    /* .icons-footer{
         display:flex;
         justify-content: space-between;
         align-items: center;
-    }
+    } */
     
     .fab a:active{
         text-shadow: 0px 10px 0 black;
@@ -380,19 +380,19 @@ a{
         
         margin-right: 0;
     }
-    .icons-footer{
+    /* .icons-footer{
         display:flex;
         justify-content: space-evenly;
         width: 18vw;
         align-items: center;
         text-align: center;
-    }
+    } */
     
 }
 
 @media(max-width: 375px){
     .cartao-principal{
-        margin-top: 45vh;
+        margin-top: 21vh;
     } 
     .seta{
         margin-top: -100px;
