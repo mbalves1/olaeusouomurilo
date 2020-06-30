@@ -30,3 +30,16 @@
 $("teste_button").click(function(){
     $("teste_pa").toggle.removeClass("teste_pa");
   });
+
+
+/*************************** */ 
+
+$('nav a').click(function(event){
+    event.preventDefault();
+    let id = $(this).attr('href'),
+        targetOffset = $(id).offset().top;
+    $('html, body').animate({
+        scrollTop: targetOffset - 60
+    }, 700);
+    
+});
