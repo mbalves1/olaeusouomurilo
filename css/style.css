@@ -228,6 +228,15 @@ a{
 
 
 @media(max-width: 800px){
+
+    .blog-post{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center
+    
+    }
+    
     .cartao-principal{
         margin-top: 21vh;
     } 
@@ -805,6 +814,7 @@ a{
 					}
 
 			@media screen and (max-width: 480px) {
+                
 
 				ul.actions {
 					margin: 0 0 2rem 0;
@@ -839,3 +849,28 @@ a{
 						}
 
 			}
+
+
+/* imagens */
+.blog-post{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center
+
+}
+.img{
+    width:275px;
+    height:200px;
+    margin:10px;
+    box-sizing: border-box;
+    box-shadow: -2px 6px 9px -2px rgb(57, 57, 59);
+    transition: .4s;
+    margin-bottom:5vh;
+}
+
+.img:hover{
+    transition: .4s;
+    box-shadow: none;
+    cursor: pointer;
+}
