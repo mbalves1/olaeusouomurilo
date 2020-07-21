@@ -43,3 +43,23 @@ $('nav a').click(function(event){
     }, 700);
     
 });
+
+
+/**
+ * 
+ */
+const seta = document.querySelector('.bi-chevron-double-down')
+
+seta.addEventListener('click', scrollTo);
+
+
+
+
+function scrollTo(event){
+    event.preventDefault();
+    const el = document.querySelector('.standard').offsetTop
+    window.scroll({
+        top: el - 120,
+        behavior: "smooth"
+    })
+}
