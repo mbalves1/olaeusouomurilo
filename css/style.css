@@ -20,6 +20,10 @@ body {
 .bi {
     margin-top:17vh;
 }
+.seta{
+    cursor:pointer;
+}
+
 .header-cartao{
     height: 100vh;
     Display: flex;
@@ -408,6 +412,7 @@ a{
     } 
     .seta{
         margin-top: -100px;
+        cursor:pointer;
     }
     #experience .experience-container{
         position: relative;
